@@ -1,0 +1,5 @@
+Name = input("input a word to reverse: ")
+
+for reverse in range(len(Name) -1, -1 , -1):
+    print(Name[reverse], end="")
+print("\n")
